@@ -1,0 +1,532 @@
+body {
+	color: #222;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	position: relative;
+	line-height: 1.5;
+}
+
+/*-----------Nav Bar----------------*/
+
+.nav {
+	margin-top: 30px;
+}
+
+.nav a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1DCEC5;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 80px;
+}
+
+.nav li {
+	display: inline;
+	font-size: 16px;
+	font-family: "Hind";
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-right: 25px;
+	color: #636363;
+}
+
+#selected {
+	color: #1DCEC5;
+}
+
+#name {
+	letter-spacing: 0.5px;
+	margin-right: 50px;
+}
+
+/*-----------Footer-------------*/
+
+#footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#footer li {
+	list-style-type: none;
+	display: inline;
+}
+
+.icon img {
+	width: 22px;
+	opacity: 0.6;
+	float: left;
+	margin-top: 2px;
+	margin-right: 10px;
+	fill: #E52525;
+}
+
+.icon img:hover {
+	opacity: 1.0;
+}
+
+#footer a {
+	color: #1DCEC5;
+}
+
+.small {
+	margin-top: 20px;
+}
+
+#footer p {
+	font-family: "Hind";
+	font-size: 15px;
+	color: #636363;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0px 32px 40px 32px;
+}
+
+.wrapper,
+#hi h1 {
+	font-family: "Century";
+	font-style: bold;
+	font-size: 12.5em;
+}
+
+h1 {
+	line-height: 1.5;
+	font-weight: 100;
+	font-size: 19px;
+	padding-bottom: 50px;
+	font-family: "Hind";
+	text-align: center;
+	margin-top: -70px;
+}
+
+.thumb {	
+	display: inline-block;
+	width: 300px;
+	height: 230px;
+	margin: 0px 2px 8px 2px;
+	overflow: hidden;
+	background-size: cover;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.filler-wrapper {
+	display: block;
+	height: 18px;
+}
+
+.filler {
+	display: block;
+	height: 5px;
+}
+
+#myflowthumb {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/myflowbanner_zpsjk2cz7ny.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#amazonthumb {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/amazonbanner_zpsrljro4ci.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#exchangethumb {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/exchangebanner_zpsudt1mpep.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#canvasthumb {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/canvasthumb_zpszma3afei.png");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#caltaikothumb {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/caltaikobanner_zpsp9mynvtu.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#thumbnails a {
+	color: inherit;
+}
+
+.overlay {
+	display: none;
+	position: absolute;
+	height: 230px;
+	width: 300px;
+	background-color: #000000;
+	opacity: 0.6;
+}
+
+.overlay-text {
+	display: none;
+	position: relative;
+	font-family: "Hind";
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-top: 100px;
+	opacity: 1.0;
+}
+
+/*-----------Posts-------------*/
+
+.post-wrapper * {
+	margin-bottom: 70px;
+}
+
+.col-md-8 {
+	margin: auto;
+	float: none;
+}
+
+.col-md-10 {
+	margin: auto;
+	float: none;
+}
+
+.post-wrapper a {
+	color: #1DCEC5;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	font-family: "Hind";
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+h3 {
+	font-family: "Hind";
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+}
+
+p {
+	font-family: "Hind";
+	font-size: 16px;
+	margin-top: -60px;
+}
+
+.post-wrapper br {
+	line-height: 2.5;
+}
+
+.post-wrapper .list {
+	line-height: 1;
+}
+
+.banner {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 350px;
+	margin-top: -30px;
+	margin-bottom: 70px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#myflowbanner {
+	background-image: url("../images/myflowheader.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#amazonbanner {
+	background-image: url("../images/amazonheader.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#exchangebanner {
+	background-image: url("../images/exchangeheader.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#canvasbanner {
+	background-image: url("../images/canvasheader.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#caltaikobanner {
+	background-image: url("../images/caltaikoheader.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 60%;
+	margin-top: -30px;
+	margin-bottom: 70px
+}
+
+.img-wrapper {
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+#myflow2 {
+	display: inline-block;
+	width: 400px;
+	margin-right: 20px;
+}
+
+#myflow3 {
+	display: inline-block;
+	width: 300px;
+}
+
+#myflow4 {
+	display: inline-block;
+	width: 350px;
+	margin-right: 20px;
+}
+
+#myflow5 {
+	display: inline-block;
+	width: 350px;
+}
+
+#myflow6 {
+	display: inline-block;
+	width: 350px;
+	margin-right: 20px;
+}
+
+#myflow7 {
+	display: inline-block;
+	width: 350px;
+}
+
+#myflow8 {
+	display: inline-block;
+	width: 250px;
+	margin-right: 20px;
+}
+
+#myflow9 {
+	display: inline-block;
+	width: 250px;
+	margin-right: 20px;
+}
+
+#myflow10 {
+	display: inline-block;
+	width: 250px;
+}
+
+.mobilefinal {
+	display: inline-block;
+	width: 290px;
+	margin-right: 20px;
+	border: 1px solid #D6D6D6;
+}
+
+#exchange3 {
+	display: inline-block;
+	width: 300px;
+	margin-right: 20px;
+}
+
+#exchange4 {
+	display: inline-block;
+	width: 450px;
+}
+
+.canvas-focus {
+	display: inline-block;
+	width: 400px;
+}
+
+.canvas-mock {
+	display: inline-block;
+	margin: auto;
+	width: 400px;
+	margin-right: 20px;
+	border: 1px solid #D6D6D6;
+}
+
+#canvas-event {
+	width: 600px;
+	border: 1px solid #D6D6D6;
+}
+
+.caltaiko {
+	width: 800px;
+}
+
+.amazon-process {
+	display: inline-block;
+	margin-right: 20px;
+	width: 470px;
+}
+
+.amazon-process1 {
+	width: 350px;
+}
+
+.amazon-process2 {
+	width: 550px;
+}
+
+.amazon-done {
+	display: inline-block;
+	width: 470px;
+	margin: 20px;
+	border: 1px solid #D6D6D6;
+}
+
+.amazon-mock {
+	width: 700px;
+}
+
+.amazon-mock-border {
+	border: 1px solid #D6D6D6;
+	width: 700px;
+}
+
+.amazon-screens {
+	display: inline-block;
+	width: 370px;
+	margin-right: 20px;
+}
+
+#profile {
+	width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+	#profile {
+		width: 85%;
+	}
+
+	.banner {
+		height: 200px;
+	}
+
+	img {
+		width: 85%;
+	}
+
+	#myflow2 {
+		width: 85%;
+	}
+
+	#myflow3 {
+		width: 85%;
+	}
+
+	#myflow4 {
+		width: 85%;
+	}
+
+	#myflow5 {
+		width: 85%;
+	}
+
+	#myflow6 {
+		width: 85%;
+	}
+
+	#myflow7 {
+		width: 85%;
+	}
+
+	#myflow8 {
+		width: 85%;
+	}
+
+	#myflow9 {
+		width: 85%;
+	}
+
+	#myflow10 {
+		width: 85%;
+	}
+
+	.amazon-process {
+		width: 80%;
+	}
+
+	.amazon-process1 {
+		width: 80%;
+	}
+
+	.amazon-process2 {
+		width: 80%;
+	}
+
+	.amazon-done {
+		width: 75%;
+	}
+
+	.amazon-mock {
+		width: 85%;
+	}
+
+	.amazon-mock-border {
+		width: 85%;
+	}
+
+	.amazon-screens {
+		width: 85%;
+	}
+
+	iframe {
+		width: 85%;
+	}
+
+	.canvas-focus {
+		width: 85%;
+	}
+
+	.canvas-mock {
+		width: 85%;
+	}
+
+	#canvas-event {
+		width: 85%;
+	}
+
+	.caltaiko {
+		width: 85%;
+	}
+
+	.nav ul {
+		margin-left: 0;
+	}
+
+	body {
+		padding: 5px 5px 5px 5px;
+	}
+
+	#name {
+		display: none;
+	}
+}

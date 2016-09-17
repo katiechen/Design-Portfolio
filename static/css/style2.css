@@ -422,6 +422,13 @@ img {
 }
 
 @media screen and (max-width: 750px) {
+
+	.thumb {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		display: block;
+	}
+	
 	#profile {
 		width: 85%;
 	}

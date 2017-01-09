@@ -229,12 +229,13 @@ p {
 	margin-top: -60px;
 }
 
-.post-wrapper br {
-	line-height: 2.5;
+.numer {
+	margin-left: 70px;
+	line-height: 1.5;
 }
 
-.post-wrapper .list {
-	line-height: 1;
+.post-wrapper br {
+	line-height: 2.5;
 }
 
 .banner {
@@ -419,6 +420,20 @@ img {
 
 #profile {
 	width: 50%;
+}
+
+#eat24aff {
+	display: inline-block;
+	width: 500px;
+	margin-right: 10px;
+}
+
+#eat24per {
+	width: 600px;
+}
+
+#eat24sce {
+	width: 800px;
 }
 
 @media screen and (max-width: 750px) {

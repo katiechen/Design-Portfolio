@@ -3,6 +3,14 @@ $(document).ready(function() {
 	$('body').css('display', 'none');
 	$('body').fadeIn(300);
 
+    $('#eat24thumb').hover(function() {
+        $('#e2text').stop(true, true).fadeToggle(300);
+        $('#e2overlay').stop(true, true).fadeToggle(200);
+    }, function() {
+        $('#e2text').stop(true, true).fadeToggle(300);
+        $('#e2overlay').stop(true, true).fadeToggle(200);
+    });
+
 	$('#myflowthumb').hover(function() {
         $('#mftext').stop(true, true).fadeToggle(300);
         $('#mfoverlay').stop(true, true).fadeToggle(200);

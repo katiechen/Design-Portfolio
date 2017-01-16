@@ -440,6 +440,18 @@ img {
 	width: 800px;
 }
 
+#eat24task {
+	width: 400px;
+}
+
+#eat24ui {
+	width: 500px;
+}
+
+iframe {
+	width: 400px;
+}
+
 @media screen and (max-width: 750px) {
 
 	.thumb {

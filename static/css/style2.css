@@ -132,7 +132,9 @@ h1 {
 }
 
 #eat24thumb {
-	background-color: black;
+	background-image: url("../images/eat24banner.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
 #myflowthumb {
@@ -211,6 +213,8 @@ h1 {
 iframe {
 	display: block;
 	margin: auto;
+	width: 300px;
+	margin-top: -150px;
 }
 
 h2 {
@@ -222,7 +226,7 @@ h2 {
 
 h3 {
 	font-family: "Hind";
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 700;
 	position: relative;
 }
@@ -238,6 +242,10 @@ p {
 	line-height: 1.5;
 }
 
+.center {
+	text-align: center;
+}
+
 .post-wrapper br {
 	line-height: 2.5;
 }
@@ -251,6 +259,12 @@ p {
 	margin-bottom: 70px;
 	background-size: cover;
 	overflow: hidden;
+}
+
+#eat24banner {
+	background-image: url("../images/eat24header.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
 #myflowbanner {
@@ -433,23 +447,33 @@ img {
 }
 
 #eat24per {
-	width: 600px;
+	width: 500px;
 }
 
 #eat24sce {
-	width: 800px;
-}
-
-#eat24task {
-	width: 400px;
+	width: 700px;
 }
 
 #eat24ui {
 	width: 500px;
 }
 
-iframe {
-	width: 400px;
+#eat24res {
+	width: 800px;
+}
+
+#eat24fin {
+	width: 1000px;
+}
+
+.medium {
+	display: inline-block;
+	width: 370px;
+}
+
+#small {
+	display: inline-block;
+	width: 180px;
 }
 
 @media screen and (max-width: 750px) {

@@ -3,6 +3,14 @@ $(document).ready(function() {
 	$('body').css('display', 'none');
 	$('body').fadeIn(300);
 
+    $('#laughlythumb').hover(function() {
+        $('#lltext').stop(true, true).fadeToggle(300);
+        $('#lloverlay').stop(true, true).fadeToggle(200);
+    }, function() {
+        $('#lltext').stop(true, true).fadeToggle(300);
+        $('#lloverlay').stop(true, true).fadeToggle(200);
+    });
+
     $('#eat24thumb').hover(function() {
         $('#e2text').stop(true, true).fadeToggle(300);
         $('#e2overlay').stop(true, true).fadeToggle(200);

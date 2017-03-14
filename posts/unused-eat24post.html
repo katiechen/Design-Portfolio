@@ -1,0 +1,128 @@
+<h3>User Research</h3>
+			<p>On a rainy day, I approached strangers to run usability tests on Eat24. Using a GoPro to record their voice, fingers, and the screen, I interviewed 7 people and later compiled the insights drawn from the interactions. I approached users with the prompt:<br> 
+			<p class="center"><b>Imagine a night where you'd more likely order delivery than go out to eat. Show me how you would order delivery using Eat24.<br></b></p>
+			<p>Throughout the process, I encouraged participants to express general thoughts.</p>
+		</div>
+
+		<div class="col-md-10">
+			<div class="img-wrapper">
+			    <img id="eat24aff" src="http://i411.photobucket.com/albums/pp194/katieschen/interviewcap2_zpsojxwq9l7.jpg">
+			    <img id="eat24aff" src="http://i411.photobucket.com/albums/pp194/katieschen/interviewcap1_zpskrulfddx.jpg">
+			    <div class="filler"></div>
+			</div>
+		</div>
+
+		<div class="col-md-8">
+			<p>6 users I interviewed were 20-30 years old and one user was in his 40s. 4 of them didn't regularly use food delivery apps, but had ordered delivery using other methods. 3 users had used the services Postmates and GrubHub.<br>
+		    To organize my findings and pick out resounding pain points, I categorized each separate insight in an affinity map and analyzed each one across Importance to User vs. Importance to Business in a 2x2 diagram. I plotted points based off of what I knew about Yelp’s business model and the main functions of the main Yelp app and Eat24. Those assumptions were: <b>1) the user uses food delivery apps like Eat24 to get food quickly and easily</b> and, <b>2) Yelp wants to facilitate the interaction between the user and the restaurant in ordering delivery</b>.</p>
+		</div>
+
+		<div class="col-md-10">
+			<div class="img-wrapper">
+			    <img id="eat24aff" src="http://i411.photobucket.com/albums/pp194/katieschen/Eat24%20affinitymap_zps2cdlh1uo.jpg">
+			    <img id="eat24aff" src="http://i411.photobucket.com/albums/pp194/katieschen/2x2_zps7juoftrf.jpg">
+			    <div class="filler"></div>
+			</div>
+		</div>
+
+		<div class="col-md-8">
+		    <p>To help me better associate the issues around a single user, I sketched up a <b>persona</b> to represent the users I interviewed. I also created <b>scenarios</b> that my persona might go through, based on the situations the users I interviewed would usually order delivery.</p>
+
+		    <img id="eat24per" src="http://i411.photobucket.com/albums/pp194/katieschen/persona_zpsj4elrye4.jpeg">
+		    <img id="eat24sce" src="http://i411.photobucket.com/albums/pp194/katieschen/scenarios_zps66myizzc.jpg">
+
+		    <h3>Defining the Problem</h3>
+		    <!--<p>All users had no trouble searching and successfully placing an order for their desired food. Most users, however, expressed some sort of confusion at some point along the process. <br>
+		    2 users knew exactly the restaurant they wanted to order from and directly navigated there to place an order. All other users spent time browsing their options. A majority of users questioned the ranking system of the options presented to them. They were confused why lower rated, and farther, restaurants were shown first. One was even frustrated that he was shown 3 different 3-starred restaurants before being shown a 4-star. This led me to focus on my first pain point: <b>1) Users are confused about how search results are ordered and ranked.</b><br>
+		    All users, except one who specifically said he doesn't care about reviews, were influenced by the rating of the restaurant in making their choice. Most of them expressed that they were used to Yelp's main app and expected to easily look at reviews along with the restaurant rating. Thus, I decided to focus on a second pain point: <b>2) Users would like to easily see reviews before choosing and placing their order.</b><br>
+			All users were able to easily find the "Order Status" feature in the app and knew exactly how to use it. A majority of users, however, were surprised to see a chat room or a "real" person responding back to them. While none of them were upset that they had to go through someone else to check on the status of their order, many of them expressed that they would've liked to see a UPS-esque tracker of some sort. So, my third pain point is <b>3) Users expect a readily tracking indication of their order.</b></p>-->
+			<p>While none of the users had trouble successfully placing an order, most of their interactions indicated that they were confused by or did not expect something while searching for a restaurant. I narrowed these points down to:<br></p>
+
+			<p class="numer"><b>Pain Point 1: Users are confused about how search results are ordered and displayed.</b><br></p>
+			<!--<p>The majority of users raised questions about the ranking system of the options presented to them. They were confused why lower rated and farther restaurants were shown first. One was even frustrated that he was shown three different 3-starred restaurants before being shown a 4-star.<br></p>-->
+
+			<p class="numer"><b>Pain Point 2: Users did not find the current sort bar helpful.</b><br></p>
+			<!--<p>Only the users who questioned the order of results used the current sort bar. However, they were still unsatisfied with the results presented to them after using a sort filter.<br></p>-->
+
+			<p class="numer"><b>Pain Point 3: Users expressed that they were most interested in reviews and rating but did not navigate to the "restaurant information" page.</b><br></p>
+			<!--<p>Of the users that made it to the "restaurant information" tucked behind a small button, most of them were bemused when tapping to see more reviews took them out of Eat24 and into the main Yelp app.</p>-->
+
+			<p>Through this process, I identified the main problem:<br></p>
+			<p class="center"><b>The search experience does not match the mental models of users.</b><br><br></p>
+
+			<p>Below are the specific user interactions that led me to identify my pain points listed in a table I created to help quantify the results of my design changes.</p>
+
+			<img id="eat24res" src="../static/images/eat24painpointchart.jpg"><br>
+		</div>
+
+		<div class="col-md-10">
+			<div class="img-wrapper">
+				<img id="eat24fin" src="../static/images/eat24painpoints.jpg">
+				<div class="filler"></div>
+			</div>
+		</div>
+
+		<div class="col-md-8">
+			<p>I created a <b>task flow</b> to show the current user flow and highlighted the area, which represents the restaurant selection process, I hope to alleviate with my solution.</p>
+
+			<img id="eat24sce" src="http://i411.photobucket.com/albums/pp194/katieschen/taskflow_vectored-copy_zpskfiprhdk.jpg"><br>
+
+			<p>I realized that users seemed to be expecting a <b>“Yelp-like” experience</b>. The main Yelp app has already handled a lot of the Eat24 issues users brought up, such as pulling out commonly used filters and labeling searches. Almost all users referenced their Yelp browsing habits while searching through Eat24.<br> Confusion and unexpected interactions while browsing and can cause users to be frustrated and spend more time viewing options that they are unlikely to pick. Thus, I believe that preventing confusion and ensuring that the experience matches the users' mental models is essential to improving Eat24's user experience.</p> 
+
+			<h3>Ideation</h3>
+			<p>I came up with the proposed solutions below:<br> </p>
+			<p class="numer"><b>Pain Point 1:</b> Users are confused about how search results are ordered and displayed.<br>
+			<b>Proposed Design Change 1:</b> Highlight a sort label by default to make search results more explicit.</b></p>
+
+			<img id="eat24per" src="../static/images/painpointillustration1.jpeg"><br><br>
+
+			<!--<p>I later found that results are actually defaultly ranked by top rated. Even if the ranking algorithm is correct, highlighting a sort label will surely still let the users know what to expect from the results and prevent confusion.<br></p>-->
+
+			<p class="numer"><b>Pain Point 2:</b> Users did not find the current sort bar helpful.</b><br>
+			<b>Proposed Design Change 2:</b> Highlight a sort label and pull out useful filter options.</b></p>
+
+			<img id="eat24per" src="../static/images/painpointillustration2.jpeg"><br><br>
+
+			<p class="numer"><b>Pain Point 3:</b> Users expressed that they were most interested in reviews and rating but did not navigate to the "restaurant information" page.</b><br>
+			<b>Proposed Design Change 3:</b> Show restaurant information with reviews first before menu.</b></p>
+
+			<img id="eat24res" src="../static/images/painpointillustration3.jpeg">
+
+			<img id="eat24res" src="../static/images/eat24proposedsolutions.jpg">
+			<div class="filler"></div>
+
+			<p>I sketched several different options of including the Yelp filter bar, as well as a new navigation bar that combined both sort and filter functions. I also sketched new layouts for the restaurant information page and how it could be navigated to and from the menu page. Choosing the best option that took into account technical and business constraints, I tested my prototype on 7 new users.</p>
+		</div>
+			
+		<div class="col-md-10">
+			<div class="img-wrapper">
+				<img class="medium" src="../static/images/eat24lofi1.jpeg">
+				<img class="medium" src="../static/images/eat24lofi2.jpeg">
+				<img id="small" src="../static/images/eat24lofi3.jpeg">
+			</div>
+		</div>	
+
+		<div class="col-md-8">
+			<h3>The Solution and Impact</h3>
+			<p>After my changes, all 7 users of the prototype had no trouble making sense of the ranking order of the search results that were presented and none expressed any sort of confusion. Most users even actively engaged with the new filter and sort bar in their search and found them helpful. Given these results, I can assume that their overall browsing and ordering experience will be faster and more streamlined.</p>
+
+			<img id="eat24res" src="../static/images/eat24validation.jpg">
+
+		</div>
+
+		<div class="col-md-12">
+			<div class="img-wrapper">
+				<img id="eat24fin" src="../static/images/eat24final.jpg"><br>
+			</div>
+		</div>
+
+			<!--<iframe src="https://marvelapp.com/365j0e7?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe><div class="filler"></div>-->
+
+		</div>
+
+		<div class="col-md-8">
+			<h3>Conclusion</h3>
+			<p>Through this case study, I learned that the root of the mismatch between the app's experience and the mental models of a lot of users was that users were expecting a "Yelp" experience. Because all of them have used Yelp, they were expecting robust search results and restaurant information before seeing menu options.<br>
+			Although Eat24 is geared towards delivery only, I believe that molding the experience of Eat24 to be consistent with the popular main Yelp app will encourage many more people to adopt Eat24 as their primary delivery method.</p>
+		</div>
+	</section>

@@ -131,7 +131,7 @@ h1 {
 }
 
 #laughlythumb {
-	background-image: url("../images/laughlyheader.png");
+	background-image: url("../images/laughlybanner.png");
 	background-color: black;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -246,7 +246,7 @@ h4 {
 }
 
 .subheader {
-	font-family: "Hind";
+	font-family: "Hind", sans-serif;
 	color: #78797A;
 }
 
@@ -267,6 +267,12 @@ p {
 	line-height: 1.8;
 }
 
+.caption {
+	font-family: "Hind", sans-serif;
+	font-size: 14px;
+	color: #78797A;
+}
+
 .center {
 	text-align: center;
 }
@@ -284,6 +290,12 @@ p {
 	margin-bottom: 70px;
 	background-size: cover;
 	overflow: hidden;
+}
+
+#laughlybanner {
+	background-image: url("../images/laughlyheader.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
 #eat24banner {

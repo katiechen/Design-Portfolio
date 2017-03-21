@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('body').css('display', 'none');
-	$('body').fadeIn(300);
+	$('body').fadeIn(350);
 
     $('#laughlythumb').hover(function() {
         $('#lltext').stop(true, true).fadeToggle(300);

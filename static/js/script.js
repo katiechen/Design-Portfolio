@@ -3,6 +3,14 @@ $(document).ready(function() {
 	$('body').css('display', 'none');
 	$('body').fadeIn(350);
 
+    $('#newsbitethumb').hover(function() {
+        $('#nbtext').stop(true, true).fadeToggle(300);
+        $('#nboverlay').stop(true, true).fadeToggle(200);
+    }, function() {
+        $('#nbtext').stop(true, true).fadeToggle(300);
+        $('#nboverlay').stop(true, true).fadeToggle(200);
+    });
+
     $('#laughlythumb').hover(function() {
         $('#lltext').stop(true, true).fadeToggle(300);
         $('#lloverlay').stop(true, true).fadeToggle(200);

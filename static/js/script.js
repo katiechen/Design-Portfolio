@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+    $.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+    }
+
+    $(['../Design-Portfolio/static/images/newsbitebanner.png','../Design-Portfolio/static/images/laughlybanner.png',
+        '../Design-Portfolio/static/images/eat24banner.png', '../Design-Portfolio/static/images/newsbiteheader.png',
+        '../Design-Portfolio/static/images/laughlyheader.png', '../Design-Portfolio/static/images/eat24header.png']).preload();
+
 	$('body').css('display', 'none');
 	$('body').fadeIn(350);
 
